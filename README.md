@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CNC Part Analyzer — SPEC'26 LLM-based CNC part analysis
 
 Type a part number (e.g. **2280**). The app finds that part in the **Excel manufacturing record**, the **PDF
