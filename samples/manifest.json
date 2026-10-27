@@ -1,0 +1,46 @@
+{
+  "parts": {
+    "2280": "consistent (main demo)",
+    "2281": "Excel length 160 vs drawing/model 150; rev A vs B",
+    "2282": "no PDF drawing (missing-source demo)",
+    "2283": "IGES in inches (unit normalisation demo)",
+    "9999": "does not exist (not-found demo)"
+  },
+  "sets": {
+    "Standard workbook (manufacturing.xlsx)": [
+      "excel/manufacturing.xlsx",
+      "drawings/2280_mounting_plate.pdf",
+      "drawings/2281_drive_shaft.pdf",
+      "drawings/2283_l_bracket.pdf",
+      "models/2280_plate.igs",
+      "models/2281_shaft.iges",
+      "models/2282_flange.IGS",
+      "models/2283_bracket_inch.igs"
+    ],
+    "Messy workbook (cryptic headers, decoys)": [
+      "excel/manufacturing_messy.xlsx",
+      "drawings/2280_mounting_plate.pdf",
+      "drawings/2281_drive_shaft.pdf",
+      "drawings/2283_l_bracket.pdf",
+      "models/2280_plate.igs",
+      "models/2281_shaft.iges",
+      "models/2282_flange.IGS",
+      "models/2283_bracket_inch.igs"
+    ],
+    "CSV export": [
+      "excel/manufacturing.csv",
+      "drawings/2280_mounting_plate.pdf",
+      "drawings/2281_drive_shaft.pdf",
+      "drawings/2283_l_bracket.pdf",
+      "models/2280_plate.igs",
+      "models/2281_shaft.iges",
+      "models/2282_flange.IGS",
+      "models/2283_bracket_inch.igs"
+    ],
+    "Scanned drawing (no text layer)": [
+      "excel/manufacturing.xlsx",
+      "extra/2280_drawing_scanned.pdf",
+      "models/2280_plate.igs"
+    ]
+  }
+}

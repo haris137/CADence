@@ -1,0 +1,12 @@
+# Works on Python 3.10 - 3.13 (tested on 3.13). pip picks the newest versions your Python supports.
+# For the exact versions we tested with (Python 3.12/3.13 only) use: pip install -r requirements-lock.txt
+streamlit>=1.40,<2
+openai>=1.60
+pandas>=2.1
+openpyxl>=3.1
+xlrd>=2.0
+pymupdf>=1.24
+reportlab>=4.0
+plotly>=5.20
+python-dotenv>=1.0
+pytest>=8.0

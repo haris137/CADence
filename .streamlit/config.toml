@@ -1,0 +1,19 @@
+[theme]
+base = "light"
+primaryColor = "#F2611D"
+backgroundColor = "#F2F1E8"
+secondaryBackgroundColor = "#E6ECF2"
+textColor = "#14315C"
+font = "sans serif"
+
+[server]
+maxUploadSize = 200
+runOnSave = false
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+# never show raw tracebacks to users (details go to the in-app debug log / terminal)
+showErrorDetails = "type"
