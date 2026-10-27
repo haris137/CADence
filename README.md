@@ -245,7 +245,7 @@ pytest tests/test_live_llm.py -s   # live Gemini/Groq check, runs only when GEMI
 
 ---
 
-## 7. Known limitations (said honestly)
+## 7. Known limitations
 * IGES: bounding boxes come from edges/vertices; when only B-spline control points are available the box is a
   conservative **upper bound** and is labelled so. Subfigure instances (408) are not expanded. Volume, mass and area
   are **not** computed. "Candidate holes" are circular edges grouped by axis — outer diameters of round parts appear
@@ -272,4 +272,3 @@ Install Tesseract so scanned or image-only PDFs can be read without any API cred
 OCR values are always marked low confidence. Known weak spots: the Ø symbol, ± and small tolerance text.
 =======
 # CADence
->>>>>>> 94ebbfe64006d89b2021e8b27c740740047170b7
