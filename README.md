@@ -1,4 +1,4 @@
-# CNC Part Analyzer — SPEC'26 LLM-based CNC part analysis
+# CADence
 
 Type a part number (e.g. **2280**). The app finds that part in the **Excel manufacturing record**, the **PDF
 engineering drawing** and the **IGES 3D model**, cross-checks the three, and answers questions in plain
