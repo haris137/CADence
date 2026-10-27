@@ -1,5 +1,8 @@
 # CADence
 
+## Live Demo 
+https://cadenceai.streamlit.app/
+
 Type a part number (e.g. **2280**). The app finds that part in the **Excel manufacturing record**, the **PDF
 engineering drawing** and the **IGES 3D model**, cross-checks the three, and answers questions in plain
 language. Every claim carries a citation chip such as `[E3]` that opens the exact sheet/row, drawing text or
