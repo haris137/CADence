@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CNC Part Analyzer — SPEC'26 LLM-based CNC part analysis
 
 Type a part number (e.g. **2280**). The app finds that part in the **Excel manufacturing record**, the **PDF
@@ -270,3 +271,6 @@ Install Tesseract so scanned or image-only PDFs can be read without any API cred
 * Check with `tesseract --version`. Set `OCR_ENABLED=false` in `.env` to switch it off.
 
 OCR values are always marked low confidence. Known weak spots: the Ø symbol, ± and small tolerance text.
+=======
+# CADence
+>>>>>>> 94ebbfe64006d89b2021e8b27c740740047170b7
